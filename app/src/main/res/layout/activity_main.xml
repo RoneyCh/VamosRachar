@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F7F8F9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="#00FFFFFF"
+        android:foregroundTint="#000000"
+        android:text="Vamos rachar"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:id="@+id/title_text_view"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor Total (R$)"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:id="@+id/total_value_text_view"/>
+
+        <EditText
+            android:id="@+id/total_value_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#C7C7C7"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número de Pessoas"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:id="@+id/num_people_text_view"/>
+
+        <EditText
+            android:id="@+id/num_people_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:backgroundTint="#C7C7C7"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="R$ 0,00 por pessoa"
+            android:textSize="24sp"
+            android:visibility="visible"
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+        android:id="@+id/shareButton"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFB200"
+        android:text="Compartilhar"
+        />
+
+            <Button
+                android:id="@+id/listen_button"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#FFB200"
+                android:text="Ouvir"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+</LinearLayout>
