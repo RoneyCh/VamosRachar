@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lets Split</string>
+    <string name="total_value">Total Value (R$)</string>
+    <string name="n_people">Number of People</string>
+    <string name="per_person">per person</string>
+    <string name="share">Share</string>
+    <string name="listen">Listen</string>
+</resources>

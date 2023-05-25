@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Vamos Rachar</string>
+    <string name="total_value">Valor Total (R$)</string>
+    <string name="n_people">Número de pessoas</string>
+    <string name="per_person">por pessoa</string>
+    <string name="share">Compartilhar</string>
+    <string name="listen">Ouvir</string>
 </resources>
